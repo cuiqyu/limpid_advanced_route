@@ -63,6 +63,6 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 spring:
   application:
-    name: eureka_server
+    name: eureka-server
 ```
 **以上代码详见：** https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/eureka_server
