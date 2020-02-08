@@ -60,7 +60,7 @@ server:
   port: 8762
 spring:
   application:
-    name: service_client
+    name: service—client
 eureka:
   client:
     serviceUrl:
