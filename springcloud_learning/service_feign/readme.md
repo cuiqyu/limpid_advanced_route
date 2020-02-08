@@ -80,6 +80,7 @@ eureka:
 ```
 
 **新增service**
+
 定义一个feign接口，通过@ FeignClient（“服务名”），来指定调用哪个服务。比如在代码中调用了service-client服务的“/hi”接口，代码如下：
 ```
 /**
