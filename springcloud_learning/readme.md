@@ -1,17 +1,21 @@
 > # 前言：
 > **springcloud微服务架构中，包括几个基础的服务组件：**
->
+> 
 > **`1.服务注册与发现`**
 >
 > **`2.服务消费`**
->
-> **`3.负载均衡`**
->
-> **`4.断路由`**
 > 
-> **`5.智能路由`**
+> **`3.断路由`**
 > 
-> **`6.配置管理`**
+> **`4.路由网关`**
+> 
+> **`5.分布式配置中心`**
+> 
+> **`6.消息总线`**
+> 
+> **`7.服务链路追踪`**
+> 
+> **`8.断路器监控`**
 
 # springcloud_learning父类项目
 > 创建springcloud_learning父类项目，用来管理项目系列子项目的版本号，结构搭建如下：
@@ -75,5 +79,8 @@
 ```
 **以上代码详见：** https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning
 
-# 一. 服务注册与发现
-详见详情：https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/eureka_server
+# 一. 服务注册与发现（Eureka）
+## [EurekaClient 服务提供者](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/eureka_client)
+## [EurekaServer 服务注册中心](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/eureka_server)
+
+# 二. [服务消费（rest+ribbon）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_ribbon)

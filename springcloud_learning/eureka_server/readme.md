@@ -1,5 +1,4 @@
-# 一. 服务注册与发现
-## EurekaServer 服务注册中心
+# EurekaServer 服务注册中心
 **添加依赖**
 ```
 <groupId>com.limpid</groupId>
@@ -67,6 +66,3 @@ spring:
     name: eureka_server
 ```
 **以上代码详见：** https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/eureka_server
-
-## EurekaClient 服务提供者
-详见详情：https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/eureka_client
