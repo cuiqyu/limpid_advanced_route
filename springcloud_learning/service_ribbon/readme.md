@@ -12,7 +12,7 @@
 > 5. ServerListFilter ribbonServerListFilter: ZonePreferenceServerListFilter
 > 6. ILoadBalancer ribbonLoadBalancer: ZoneAwareLoadBalancer
 
-新建项目`service_ribbon`，作为`spring_cloud`项目下的子模块，代码如下：
+新建项目`service_ribbon`，作为`springcloud_learning`项目下的子模块，代码如下：
 
 **添加依赖**
 ```

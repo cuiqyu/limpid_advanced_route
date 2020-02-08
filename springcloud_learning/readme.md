@@ -84,3 +84,4 @@
 ## [EurekaServer 服务注册中心](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/eureka_server)
 
 # 二. [服务消费（rest+ribbon）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_ribbon)
+# 三. [服务消费（Feign）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_feign)
