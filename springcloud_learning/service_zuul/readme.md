@@ -2,6 +2,7 @@
 > 在springCloud的微服务系统架构中，在Spring Cloud微服务系统中，一种常见的负载均衡方式是，客户端的请求首先经过负载均衡（zuul、Ngnix），再到达服务网关（zuul集群），然后再到具体的服。，服务统一注册到高可用的服务注册中心集群，服务的所有的配置文件由配置服务管理，配置服务的配置文件放在git仓库，方便开发人员随时改配置。
 
 微服务架构系统如下图：
+
 ![](https://note.youdao.com/yws/public/resource/8a3bdadc14ca85b7eddc14be9dc18bf5/xmlnote/WEBRESOURCEff2a0345c0abceaa7ad5d82d0e6fe38c/18605)
 
 **Zuul简介**
