@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config_server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cuiqyu/limpid_advanced_route
+          searchPaths: springcloud_learning/config_server/config_repo
+          # 如果连接的仓库是公开的，则此处不需要输入用户名与密码
+          # username: *****
+          # password: *****
+      label: master
+server:
+  port: 8888
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/

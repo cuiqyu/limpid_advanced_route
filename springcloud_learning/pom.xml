@@ -23,6 +23,7 @@
         <module>service_ribbon</module>
         <module>service_feign</module>
         <module>service_zuul</module>
+        <module>config_server</module>
     </modules>
 
     <properties>
