@@ -24,6 +24,7 @@
         <module>service_feign</module>
         <module>service_zuul</module>
         <module>config_server</module>
+        <module>config_client</module>
     </modules>
 
     <properties>

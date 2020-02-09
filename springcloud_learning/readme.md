@@ -87,3 +87,4 @@
 # 三. [服务消费（Feign）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_feign)
 # 四. [断路由（Hystrix）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/md/Hystrix.md)
 # 五. [路由网关（zuul）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_zuul)
+# 六. [分布式配置中心（Spring Cloud Config）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/md/spring_cloud_config1.md)
