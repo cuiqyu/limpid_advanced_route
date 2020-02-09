@@ -85,3 +85,4 @@
 
 # 二. [服务消费（rest+ribbon）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_ribbon)
 # 三. [服务消费（Feign）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_feign)
+# 四. [断路由（Hystrix）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/md/Hystrix.md)
