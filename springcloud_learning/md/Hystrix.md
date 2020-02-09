@@ -68,7 +68,7 @@ public class HelloService {
 
 **综上结果：** 这就说明当`service-client`工程不可用的时候，`service-ribbon`调用`service-client`的API接口时，会执行快速失败，直接返回一组字符串，而不是等待响应超时，这很好的控制了容器的线程阻塞。
 
-**以上代码详见：** https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_feign
+**以上代码详见：** https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/service_ribbon
 
 **2. 改造service-feign项目：**
 
