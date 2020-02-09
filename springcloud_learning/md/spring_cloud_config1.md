@@ -74,9 +74,13 @@ server:
 ```
 
 **1. spring.cloud.config.server.git.uri：** 配置git仓库地址
+
 **2. spring.cloud.config.server.git.searchPaths：** 配置仓库路径
+
 **3. spring.cloud.config.label：** 配置仓库的分支
+
 **4. spring.cloud.config.server.git.username：** 访问git仓库的用户名
+
 **5. spring.cloud.config.server.git.password：** 访问git仓库的用户密码
 
 **结果验证：**
