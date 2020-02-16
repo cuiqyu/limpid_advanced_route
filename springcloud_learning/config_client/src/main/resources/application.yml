@@ -1,0 +1,18 @@
+spring:
+  # 配置rabbitmq
+  rabbitmq:
+    host: 106.14.214.95
+    port: 5672
+    username: limpid
+    password: cui0802
+  cloud:
+    # 配置spring_cloud_bus
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
