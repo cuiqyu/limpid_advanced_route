@@ -96,3 +96,4 @@
 # 六. [分布式配置中心（Spring Cloud Config）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/md/spring_cloud_config1.md)
 # 七. [高可用的分布式配置中心（Spring Cloud Config）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/md/spring_cloud_config2.md)
 # 八. [消息总线（Spring Cloud Bus）](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/md/spring_cloud_config3.md)
+# 九. [高可用的服务注册中心](https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/md/eureka_server1.md)
