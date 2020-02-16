@@ -49,8 +49,10 @@ eureka:
 > -摘自官网
 
 按照官方文档的指示，需要改变etc/hosts，linux系统通过vim /etc/hosts ,加上：
-> 127.0.0.1 peer1
-> 127.0.0.1 peer2
+```
+127.0.0.1 peer1
+127.0.0.1 peer2
+```
 
 这时候为了测试eureka_server是否改造成功，需要修改`eureka_client`项目的配置文件
 ```
@@ -91,6 +93,11 @@ client只向8761注册，但是你打开8769，你也会发现，8769也有 clie
 > In some cases, it is preferable for Eureka to advertise the IP Adresses of services rather than the hostname. Set eureka.instance.preferIpAddress to true and when the application registers with eureka, it will use its IP Address rather than its hostname.
 -- 摘自官网
 >> 在某些情况下，Eureka最好公布服务的IP地址，而不是主机名。将eureka.instance.preferIpAddress设置为true，当应用程序向eureka注册时，它将使用其IP地址而不是主机名。
+
+此时的架构图：
+![](https://note.youdao.com/yws/public/resource/8a3bdadc14ca85b7eddc14be9dc18bf5/xmlnote/C307535CFB414C9AB51C806A1F6F5AB1/18618)
+
+Eureka-server peer1 8761,Eureka-eserver peer2 8769相互感应，当有服务注册时，两个Eureka-server是对等的，它们都存有相同的信息，这就是通过服务器的冗余来增加可靠性，当有一台服务器宕机了，服务并不会终止，因为另一台服务存有相同的数据。
 
 **以上代码详见：** https://github.com/cuiqyu/limpid_advanced_route/tree/master/springcloud_learning/eureka_server
 
